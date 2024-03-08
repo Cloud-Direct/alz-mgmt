@@ -10,6 +10,7 @@ module "enterprise_scale" {
   deploy_corp_landing_zones    = true
   deploy_management_resources  = true
   deploy_online_landing_zones  = true
+  deploy_identity_resources    = true
   root_id                      = var.root_id
   root_name                    = var.root_name
   subscription_id_connectivity = var.subscription_id_connectivity
